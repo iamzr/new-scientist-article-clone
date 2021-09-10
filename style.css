@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", Helvetica, sans-serif;
+}
+
+button {
+  border: 0;
+  border-radius: 0.188rem;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
