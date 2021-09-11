@@ -170,6 +170,42 @@ article .more-topics {
   background: rgb(1, 86, 136);
 }
 
+/* Part after article */
+#mag {
+  display: flex;
+}
+
+#mag-column1 {
+  width: 191px;
+}
+
+#mag-column2 {
+  width: 191px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mag-column2 button {
+  margin-bottom: 11px;
+}
+
+#mag img {
+  width: 185px;
+  height: 243px;
+}
+
+.subscribe {
+  background-color: #00b3e5;
+}
+
+.view-in-the-app {
+  background-color: #20b2aa;
+}
+
+.buy-in-print {
+  background-color: #ff0000;
+}
+
 /* Aside */
 
 aside {
