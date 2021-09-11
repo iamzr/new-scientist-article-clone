@@ -87,6 +87,10 @@ nav {
   padding: 10px 0 14px 0;
 }
 
+nav a {
+  color: #002837;
+}
+
 .nav-sections {
   display: flex;
   justify-content: center;
@@ -214,4 +218,55 @@ aside {
   height: 500px;
   background-color: red;
   margin-left: 16px;
+}
+
+/* Cards */
+.cards-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin-right: 22px;
+  margin-bottom: 22px;
+  width: 259px;
+}
+
+.card a {
+  word-wrap: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+}
+
+.cards-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card img {
+  width: 259px;
+  height: 172px;
+  margin-bottom: 11px;
+}
+
+.card-top {
+  position: relative;
+  float: left;
+  left: 0;
+  top: 28px;
+  padding: 7px;
+
+  background: #484848;
+  color: white;
+  font-size: 14px;
+}
+
+.purple {
+  background: #79227d;
 }
