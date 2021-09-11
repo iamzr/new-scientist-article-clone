@@ -74,7 +74,7 @@ header {
 /* Nav bar */
 nav {
   width: 100vw;
-  padding: 10px 0;
+  padding: 10px 0 14px 0;
 }
 
 .nav-sections {
@@ -87,15 +87,18 @@ nav {
   font-size: 18px;
   font-weight: 700;
   margin-right: 16.5px;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
 }
 
 .nav-sections > div {
   display: inline-block;
 }
 
-.nav-item1 {
+nav a:hover {
+  color: #00b3e5;
+  border-bottom: 5px solid #002837;
 }
 
 .nav-item2 {
+  color: #00b3e5;
 }
