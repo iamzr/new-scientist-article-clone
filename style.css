@@ -13,6 +13,12 @@ button {
   padding: 0.5rem;
   text-align: center;
   text-transform: uppercase;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #00b3e5;
 }
 
 h1 {
@@ -30,6 +36,10 @@ p {
 
 .italic {
   font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .blue-text {
@@ -101,4 +111,67 @@ nav a:hover {
 
 .nav-item2 {
   color: #00b3e5;
+}
+
+/* Section */
+section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/* Article */
+article {
+  width: 780px;
+  padding-top: 16px;
+}
+
+article h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-size: 3.125em;
+  margin-bottom: 15px;
+}
+
+#details {
+  margin-bottom: 10px;
+}
+
+#author {
+  margin-bottom: 10px;
+}
+
+article figcaption {
+  font-size: 12px;
+  color: #4d4d4d;
+}
+
+article figure {
+  margin-bottom: 22px;
+}
+
+article p {
+  margin-bottom: 11px;
+}
+
+article .more-topics {
+  padding-top: 22px;
+  display: flex;
+}
+
+.more-topics span {
+  margin-right: 11px;
+}
+
+.more-topics button {
+  margin-right: 11px;
+  margin-bottom: 11px;
+  background: rgb(1, 86, 136);
+}
+
+/* Aside */
+
+aside {
+  width: 300px;
 }
