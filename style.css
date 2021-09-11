@@ -9,15 +9,71 @@ button {
   border-radius: 0.188rem;
   cursor: pointer;
   font-size: 16px;
+  font-weight: 700;
   padding: 0.5rem;
   text-align: center;
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 17px;
+}
+
+/* General classes for text */
 .caps {
   text-transform: uppercase;
 }
 
 .italic {
   font-style: italic;
+}
+
+.blue-text {
+  color: #00b3e5;
+  font-weight: 700;
+}
+
+/* Header-container */
+.header-container {
+  margin: 30px 0 6px 0;
+}
+
+/* Header */
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:10px;
+}
+
+
+.logo {
+  min-width: 350px;
+  min-height: 56px;
+}
+
+.sub-button {
+  background-color: #61AD39;
+  padding: 7px;
+  color: white;
+  min-width:240px;
+  min-height:46.66;
+  flex: 0 0 240px;
+}
+
+
+/* Nav bar */
+navbar {
+  margin: 
+  width: 100vw;
+}
+
+.nav-item1 {
+}
+
+.nav-item2 {
 }
