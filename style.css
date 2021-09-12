@@ -251,7 +251,6 @@ aside {
 .aside-tabs {
   display: flex;
   flex-direction: row;
-  width: 300px;
   margin-bottom: 3px;
 }
 
