@@ -233,16 +233,26 @@ article .more-topics {
 }
 
 /* Aside */
+.aside-wrapper {
+  width: 300px;
+}
+
 aside {
-  background-color: red;
   margin-left: 16px;
   font-family: "Titillium Web", Helvetica, sans-serif;
+}
+
+.aside-sticky {
+  position: fixed;
+  width: 300px;
+  top: 50px;
 }
 
 .aside-tabs {
   display: flex;
   flex-direction: row;
   width: 300px;
+  margin-bottom: 3px;
 }
 
 .aside-tab {
@@ -254,6 +264,10 @@ aside {
   font-size: 14px;
   flex: 1 0 auto;
   text-align: center;
+}
+
+.aside-tab-right {
+  margin-right: 0;
 }
 
 .aside-tab-highlight:hover {
