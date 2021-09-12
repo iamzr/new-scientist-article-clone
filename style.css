@@ -14,6 +14,7 @@ button {
   text-align: center;
   text-transform: uppercase;
   color: white;
+  font-family: "Titillium Web", Helvetica, sans-serif;
 }
 
 a {
@@ -269,4 +270,114 @@ aside {
 
 .purple {
   background: #79227d;
+}
+
+.prom-stories {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  font-family: serif;
+  width: 100vw;
+  background-color: #f5f5f5;
+  margin-top: 30px;
+  padding: 22px 0;
+}
+
+footer a {
+  color: black;
+}
+
+.footer-wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.sign-up-wrapper {
+  margin-bottom: 11px;
+  padding: 11px 0;
+}
+
+.sign-up {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: "Titillium Web", Helvetica, sans-serif;
+}
+
+.sign-up-wrapper label {
+  font-family: serif;
+  font-size: 16px;
+  margin: 0 11px 11px 0;
+}
+
+.sign-up-wrapper input {
+  border: 0;
+  background: transparent;
+  border-bottom: 2px solid #000;
+  font-family: serif;
+  font-size: 16px;
+  margin: 0 22px 11px 0;
+  padding: 0 22px 0 3px;
+  line-height: 1.3em;
+}
+
+.sign-up-wrapper button {
+  background-color: #005587;
+  width: 225px;
+  padding: 7px;
+}
+
+.footer-links .row1,
+.row2,
+.row3 {
+  padding-bottom: 11px;
+  margin-bottom: 11px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.row1 {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.left-border {
+  padding-right: 11px;
+  margin-right: 11px;
+  border-right: 1px solid black;
+}
+
+.manage-pref {
+  background-color: #005587;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.back-to-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 144px;
+}
+
+.back-to-top span {
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.back-to-top svg {
+  width: 40px;
+  height: 40px;
 }
