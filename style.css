@@ -55,13 +55,12 @@ p {
 /* Header-container */
 .header-container {
   margin: 30px 0 6px 0;
-  border-bottom: 1px solid #bfbfbf;
   height: auto;
 }
 
 /* Header */
 .header-wrapper {
-  width: 100vw;
+  width: 100%;
 }
 
 header {
@@ -87,10 +86,34 @@ header {
   line-height: 1em;
 }
 
+.left-header {
+  width: 220px;
+}
+.left-header a {
+  color: #999999;
+  font-family: serif;
+  word-wrap: normal;
+  width: 100px;
+  font-size: 16px;
+}
+
+.left-header a:hover {
+  text-decoration: underline;
+}
+
 /* Nav bar */
 nav {
-  width: 100vw;
+  width: 100%;
   padding: 10px 0 14px 0;
+  background-color: white;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.nav-sticky {
+  position: fixed;
+  top: 0;
+  height: 18px;
+  z-index: 3;
 }
 
 nav a {
@@ -195,6 +218,10 @@ article .more-topics {
 }
 
 /* Part after article */
+.below-float {
+  clear: both;
+}
+
 #mag {
   display: flex;
   justify-content: center;
@@ -234,7 +261,7 @@ article .more-topics {
 
 /* Aside */
 .aside-wrapper {
-  width: 300px;
+  min-width: 300px;
 }
 
 aside {
@@ -243,9 +270,11 @@ aside {
 }
 
 .aside-sticky {
-  position: fixed;
-  width: 300px;
+  position: sticky;
   top: 50px;
+  right: 175px;
+  width: 300px;
+  z-index: 2;
 }
 
 .aside-tabs {
@@ -364,10 +393,11 @@ aside {
 /* Footer */
 footer {
   font-family: serif;
-  width: 100vw;
+  width: 100%;
   background-color: #f5f5f5;
   margin-top: 30px;
   padding: 22px 0;
+  clear: both;
 }
 
 footer a {
