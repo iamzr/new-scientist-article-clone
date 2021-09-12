@@ -262,11 +262,13 @@ article .more-topics {
 /* Aside */
 .aside-wrapper {
   min-width: 300px;
+  padding-top: 16px;
 }
 
 aside {
   margin-left: 16px;
   font-family: "Titillium Web", Helvetica, sans-serif;
+  width: 300px;
 }
 
 .aside-sticky {
